@@ -1,0 +1,22 @@
+{
+  "name": "vanillajsprojects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nativeforest/VanillaJSProjects.git"
+  },
+  "keywords": [
+    "aazl"
+  ],
+  "author": "andres zl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nativeforest/VanillaJSProjects/issues"
+  },
+  "homepage": "https://github.com/nativeforest/VanillaJSProjects#readme"
+}
