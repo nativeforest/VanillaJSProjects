@@ -1,10 +1,8 @@
-
 {
   "name": "vanillajsprojects",
   "version": "1.0.0",
   "description": "",
-
-"engines": {
+  "engines": {
     "node": "12.x"
   },
   "main": "index.js",
@@ -14,7 +12,8 @@
   },
   "dependencies": {
     "ejs": "^2.5.6",
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "file-system": "^2.2.2"
   },
   "devDependencies": {
     "got": "^11.3.0",
