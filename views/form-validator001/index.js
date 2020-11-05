@@ -1,5 +1,5 @@
  var init=function(){
-     
+
     const form= document.getElementById('form');
     const username= document.getElementById('username');
     const email= document.getElementById('email');
@@ -17,6 +17,7 @@
 
     }
     function showValidation(input,message,success){
+        // console.log("-->",input.value,"name-->",input.name)
         const formControl= input.parentElement;
         const small =formControl.querySelector('small')
         small.innerHTML=message;
@@ -40,9 +41,9 @@
 
     function checkLength(input,min,max){
         if(input.value.length<min){
-            showValidation(input,`${getFieldName(input)} must be at least `,false)
+            showValidation(input,`${getFieldName(input)} must be at least ${min} characteres`,false)
         }else if (input.value.length>max){
-            showValidation(input,`${getFieldName(input)} must be less than`,false)
+            showValidation(input,`${getFieldName(input)} must be less than ${max} characteres`,false)
         }else{
             showValidation(input,'',true)
         }
