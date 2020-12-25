@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:"Montserrat";
+    /* background-color:#AC4EC6; */
+    /* background-image: linear-gradient(to right,#F52EA1, #BE25D7); */
+    background-image: url("../images/cat.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-height: 100vh;
+    margin: 0;
+}
+h1{
+    color:#B5A898;
+}
+.screen{
+    cursor: pointer;
+    height: 40%;
+    width: 50%;
+    background-color: #5C34D6 !important;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.controls{
+    display: flex;
+    flex-direction:row;
+    background-color: #F99CD1;
+    width:50%;
+    color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    justify-content:center;
+    justify-items: center;
+    align-items: center;
+    padding:1%;
+}
+.controls .btn{
+    border:0;
+    background-color:transparent;
+    cursor: pointer;
+}
+.timestamp{
+    
+    margin-right: 1%;
+    margin-left: 1%;
+}
+.controls .fa-play{
+ color:#f10bac;   
+}
+
+.controls .fa-pause{
+ color:#8370bb;   
+}
+
+.controls .fa-stop{
+ color:#d63465;   
+}
+
+@media (max-width:800px) {
+    .screen, .controls{
+        width:90%;
+    }
+
+}
